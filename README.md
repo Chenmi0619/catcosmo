@@ -43,7 +43,7 @@ pip install -e .
 
 from catcosmo import cosmological_seed_mean
 
-seed = cosmological_seed_mean(
+seed = seed(
     name="Mimi",
     birth="2022-05-14",
     weight=4.2,

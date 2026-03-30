@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "catcosmo"
-version = "0.1.1"
+version = "0.1.2"
 description = "Cosmological random seed generator based on cat properties"
 authors = [
     { name = "Mi Chen", email = "chenmiastro@gmail.com" },
