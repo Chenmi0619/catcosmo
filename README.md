@@ -41,7 +41,7 @@ pip install -e .
 
 ## 🧪 Quick Start
 
-from catcosmo import cosmological_seed_mean
+from catcosmo import seed
 
 seed = seed(
     name="Mimi",
