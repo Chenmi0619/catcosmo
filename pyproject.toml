@@ -1,0 +1,33 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "catcosmo"
+version = "0.1.0"
+description = "Cosmological random seed generator based on cat properties"
+authors = [
+    { name = "Mi Chen", email = "chenmiastro@gmail.com" },
+    { name = "Renhao Ye", email = "renhaoye@shao.ac.cn" }
+]
+readme = "README.md"
+requires-python = ">=3.8"
+
+dependencies = [
+    "numpy"
+]
+
+license = { text = "MIT" }
+
+[project.urls]
+Homepage = "https://github.com/yourusername/catcosmo"
+
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.exclude-package-data]
+"*" = ["._*", ".DS_Store"]
